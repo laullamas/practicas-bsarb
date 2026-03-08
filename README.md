@@ -34,3 +34,19 @@ Análisis de flujos metabólicos (FBA/FVA) del modelo *E. coli* core y del model
 | `practica2/matriz.txt` | Matriz estequiométrica de la red sencilla (formato plano) |
 | `practica2/metabolitos.txt` | Lista de metabolitos de la red sencilla |
 | `practica2/reacciones.txt` | Lista de reacciones de la red sencilla |
+
+---
+
+## Práctica 3 — Simulación de un fragmento de la glucólisis (S-system)
+
+Modelización y simulación de un fragmento de la ruta glucolítica (Glucosa-1-fosfato, Glucosa-6-fosfato y Fructosa-6-fosfato) mediante el formalismo de S-system de la Teoría de Sistemas Bioquímicos (BST). Incluye análisis de estado estacionario, perturbaciones en variables independientes (glucosa, PFK), alteraciones estructurales del modelo, escalado de constantes cinéticas, inhibición por producto de la glucoquinasa y simulación de pulsos de metabolito.
+
+**Herramientas:** COPASI v4.46 · Python (matplotlib)
+
+| Archivo | Descripción |
+|---------|-------------|
+| `practica3/figuras_practica3.ipynb` | Notebook Python: generación de figuras comparativas |
+| `practica3/steady2000.txt` | Datos exportados de COPASI: evolución temporal 2000 min (referencia) |
+| `practica3/f_alteracion_estructural.txt` | Datos exportados de COPASI: alteración estructural (α₂, g₂₂) |
+| `practica3/g_todasx10.txt` | Datos exportados de COPASI: todas las constantes ×10 |
+| `practica3/g_x2.txt` | Datos exportados de COPASI: solo constantes de X₂ ×10 |
